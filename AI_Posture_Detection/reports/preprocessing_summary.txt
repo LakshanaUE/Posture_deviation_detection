@@ -1,0 +1,37 @@
+=======================================================
+  POSTURE DETECTION — PREPROCESSING SUMMARY
+=======================================================
+
+Labeling Logic  : Neck>25deg OR Torso>20deg = BAD
+
+Total samples   : 11255
+Good posture(1) : 7255 (64.5%)
+Bad  posture(0) : 4000  (35.5%)
+Train samples   : 9004
+Test  samples   : 2251
+
+Dataset breakdown:
+  confidence_features: 5949
+  gym_landmarks: 2700
+  yoga_keypoints: 2606
+
+Feature columns:
+  neck_avg                  mean=19.45 std=24.48
+  spine_angle               mean=58.97 std=38.27
+  shoulder_slope            mean=9.50 std=20.86
+  head_tilt                 mean=11.91 std=25.79
+  hip_alignment             mean=7.81 std=19.16
+  ear_sh_left               mean=0.30 std=0.19
+  ear_sh_right              mean=0.30 std=0.19
+  lm7_x                     mean=0.55 std=0.16
+  lm7_y                     mean=-0.11 std=0.39
+  lm8_x                     mean=0.53 std=0.16
+  lm8_y                     mean=-0.13 std=0.41
+  lm11_x                    mean=0.56 std=0.14
+  lm11_y                    mean=0.17 std=0.20
+  lm12_x                    mean=0.51 std=0.13
+  lm12_y                    mean=0.15 std=0.21
+  lm23_x                    mean=0.55 std=0.12
+  lm23_y                    mean=0.81 std=0.32
+  lm24_x                    mean=0.52 std=0.12
+  lm24_y                    mean=0.81 std=0.32
